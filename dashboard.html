@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+    <!-- styles (main)-->
+    <link rel="stylesheet" href="./styles/common-main.css">
+    <link rel="stylesheet" href="./styles/common-my-classes.css">
+
+    <!-- for this page -->
+    <link rel="stylesheet" href="./styles/style-dashboard.css">
+
+    <!-- screen -->
+    <link rel="stylesheet" href="./styles/screensize-dashboard.css">
+
+</head>
+
+<body>
+    <!-- NAV -->
+    <style>
+        nav {
+            background-color: black;
+            padding: 10px;
+
+            position: sticky;
+            top: 0;
+        }
+
+        #logo {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+
+    <nav>
+        <li>
+            <a href="index.html">
+                <img id="logo" src="./styles/images/logo.png" alt="">
+            </a>
+        </li>
+    </nav>
+
+
+    <!-- MAIN -->
+    <main id="main-center" class="center">
+        <div id="sub-center" class="center">
+            <!-- section1 -->
+            <section id="profile">
+                <h2>Profile</h2>
+
+                <div class="box">
+                    <img src="./styles/images/face/h1.jpg" alt="">
+                    <p id="name">Name: &nbsp; &nbsp; &nbsp; &nbsp;James</p>
+                    <p id="member">Member since: &nbsp;1 June 2023</p>
+                    <p>Currency: &nbsp;&nbsp;Rands (ZAR)</p>
+                </div>
+            </section>
+
+            <!-- section2 -->
+            <section id="transactions">
+                <h2>Transactions</h2>
+
+                <div class="box">
+                    <h3>Deposit</h3>
+                    <input id="deposit" type="number">
+                    <!-- <button onclick="mainD()">Deposit</button> -->
+                    <button onclick="updateDeposit()">Deposit</button>
+                </div>
+
+                <div class="box">
+                    <h3>Withdraw</h3>
+                    <input id="withdraw" type="number">
+                    <!-- <button onclick="updateWithdraw()">Withdraw</button> -->
+                    <button onclick="updateWithdraw()">Withdraw</button>
+                </div>
+
+                <div class="box">
+                    <h3>Send money</h3>
+                    <input id="sent" type="number">
+                    <!-- <button onclick="mainS()">Send</button> -->
+                    <button onclick="updateSend()">Send</button>
+                </div>
+            </section>
+
+            <!-- section3 -->
+            <section id="records">
+                <h2>Records</h2>
+
+                <div class="box">
+                    <h3>Total Deposits</h3>
+
+                    <p id="show-deposit"></p>
+                </div>
+                <div class="box">
+                    <h3>Total Withdrawals</h3>
+
+                    <p id="show-withdrawals"></p>
+                </div>
+                <div class="box">
+                    <h3>Total Money Sent</h3>
+
+                    <p id="show-sent-money"></p>
+                </div>
+                <div class="box">
+                    <h3>Balance</h3>
+
+                    <p id="show-balance"></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- log out button -->
+    <style>
+        #log-out button {
+            padding: 10px 30px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(209, 170, 192);
+        }
+
+        #log-out button:hover {
+            background-color: black;
+            color: rgb(209, 170, 192);
+        }
+    </style>
+    <div class="center">
+        <a id="log-out" href="./index.html">
+            <button>Log out</button>
+        </a>
+    </div>
+</body>
+
+<!-- leave script tag here -->
+<!-- my-script -->
+<script src="scripts/bankCalc.js"></script>
+
+</html>

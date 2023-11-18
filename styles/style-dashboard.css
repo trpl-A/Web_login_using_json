@@ -1,0 +1,177 @@
+button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/* ================================== */
+
+/* NAV */
+nav {
+    height: 100px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+nav button {
+    border: 3px solid white;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+}
+
+nav button:hover {
+    background-color: white;
+    color: black;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* ======================================== */
+
+/* MAIN */
+main {
+    min-height: 100vh;
+    /* height: calc(100vh - 100px); */
+    padding: 10px;
+    background-color: white;
+}
+
+/* sections */
+main section {
+    /* border: 1px solid blue; */
+    box-shadow: 1px 1px 10px gray;
+    /* width: 25vw; */
+    height: 80vh;
+
+    margin: 10px 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* ======================================== */
+
+section {
+    background-color: black;
+    color: white;
+}
+
+section div {
+    background-color: white;
+    color: black;
+}
+
+main .box {
+    /* border: 2px solid blue; */
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px 0;
+
+    width: 100%;
+    /* width: 300px; */
+    height: 150px;
+}
+
+
+section h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 100;
+}
+
+/* ======================================== */
+
+
+main #profile {
+    width: 20vw;
+    /* height: 250px; */
+}
+
+#profile .box {
+    height: 300px;
+    /* padding: 5vh 15px; */
+    /* height: 200px; */
+}
+
+#profile img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#profile button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+#profile button:hover {
+    color: blue;
+    background-color: white;
+}
+
+/* ======================================== */
+
+main #transactions {
+    width: 50vw;
+}
+
+#transactions .box {
+    height: 150px;
+}
+
+#transactions input {
+    border-bottom: 1px solid blue;
+    display: inline-block;
+}
+
+#transactions input::placeholder {
+    color: blue;
+}
+
+#transactions input:focus {
+    border-bottom: 2px solid black;
+}
+
+#transactions button {
+    background-color: white;
+    color: blue;
+    box-shadow: 1px 1px 5px blue;
+    width: 120px;
+    /* border-radius: 10px; */
+}
+
+#transactions button:hover,
+#transactions button:focus {
+    color: white;
+    background-color: blue;
+    box-shadow: 1px 1px 5px white;
+}
+
+/* ======================================== */
+
+main #records {
+    width: 20vw;
+}
+
+#records .box {
+    height: 100px;
+}
+
+/* ======================================== */

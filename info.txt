@@ -1,0 +1,17 @@
+JSON and a server
+=================
+This project must run on a server (local server) to use and access the data from the JSON file 
+
+This can be achieved by:
+1. Running the project from VS code using Live Server (install the Live Server Extension), or
+- the URL will look something like this: 
+    "127.0.0.1:5501/index.html"
+
+2. Using a python module (Python has to be installed)
+- in cmd, Windows, run the following command "python -m http.server"
+(this will create a localserver)
+- then go to your browser, and type "localhost:8000"
+- finally navigate the file that needs to be opened (eg. index.html)
+- the URL will look something like this: 
+    "localhost:8000/index.html"
+=================

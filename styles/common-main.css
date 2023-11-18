@@ -1,0 +1,102 @@
+/* FOR FORMS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 400ms ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 400ms ease;
+}
+
+/* ======================================= */
+
+/* HEADER */
+header {
+    /* padding: 10px; */
+    height: 100vh;
+    background-color: black;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+
+    width: fit-content;
+    color: white;
+    padding: 10px;
+}
+
+/* ======================================= */
+
+/* MAIN */
+main {
+    min-height: 100vh;
+    background-color: lightgray;
+    color: black;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+/* ======================================= */
+
+/* MORE SELECTORS */
+/* .my-input */
+input {
+    display: block;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    transition: 400ms ease;
+}
+
+input::placeholder {
+    color: orange;
+}
+
+input:focus {
+    border-bottom: 1px solid orange;
+}
+
+/* .my-button */
+button {
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    transition: 400ms ease;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: aqua;
+}
+
+/* ======================================= */

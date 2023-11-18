@@ -1,0 +1,25 @@
+/* MY-CLASSES */
+/* ======================================= */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+
+    z-index: 100;
+}
+
+/* ======================================= */

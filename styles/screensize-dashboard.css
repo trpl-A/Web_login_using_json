@@ -1,0 +1,62 @@
+/* 
+NOTE
+if screensize is smaller than 450px, page will 'break'
+*/
+
+@media (max-width:900px) {
+    #profile .box {
+        height: 250px;
+        /* background-color: black; */
+    }
+}
+
+@media (max-width:800px) {
+    main {
+        min-height: 250vh;
+        display: block;
+    }
+
+    #main-center {
+        align-items: normal;
+    }
+
+    #sub-center {
+        width: 85%;
+        display: block;
+    }
+
+    /* ===================================== */
+
+    /* SECTIONS */
+    main section {
+        display: block;
+
+        /* height: 80vh; */
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+
+    main #profile,
+    main #transactions,
+    main #records {
+        width: 100%;
+        margin-bottom: 5vh;
+        border-radius: 20px;
+    }
+
+    /* main #profile {
+        height: 50vh;
+    }
+
+    main #transactions {
+        height: 65vh;
+    }
+
+    main #records {
+        height: 60vh;
+    } */
+
+    /* ===================================== */
+
+}

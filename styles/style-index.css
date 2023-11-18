@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#forgot-link a {
+    text-decoration: none;
+    display: inline;
+
+    color: blue;
+    width: fit-content;
+    transition: 400ms ease;
+}
+
+#forgot-link a:hover {
+    color: red;
+}
+
+main {
+    height: 100vh;
+}
+
+/* ================================= */
+
+/* form*/
+.form-container {
+    border-radius: 20px;
+    background: white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 30px 10px;
+    box-shadow: 1px 1px 3px black;
+    /* box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); */
+}
+
+.form-container h2 {
+    font-size: 30px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+/* FORM */
+/* .form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+} */
+
+form input {
+    width: 90%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+form a {
+    margin-top: 20px;
+    display: block;
+    font-size: 12px;
+}
+
+/* button */
+#btn-submit {
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
+#btn-submit:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
